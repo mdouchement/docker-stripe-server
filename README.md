@@ -1,7 +1,7 @@
 # docker-stripe-server
 A mock of Stripe API
 
-- Run docker `docker run -p 4999:4999 -it stripe-mock-server`
+- Run docker `docker run -p 4999:4999 -it mdouchement/stripe-server`
 - Edit `config/environments/development.rb`:
 ```ruby
 # ...
